@@ -70,9 +70,9 @@ custom_issues = @query.issues(:include => [:assigned_to, :tracker, :priority, :c
 <% if custom_issues.length > 0 
 if @query.project == nil then
 %>
-<p class="small"<%= link_to(h(@query.name), :controller => 'issues',:action => 'index', :query_id => @query.id) %></p>
+<p class="small"><%= link_to(h(@query.name), :controller => 'issues',:action => 'index', :query_id => @query.id) %></p>
 <% else %>
-<p class="small"<%= link_to(h(@query.name), :controller => 'issues',:project_id =>@query.project.id ,:action => 'index', :query_id => @query.id) %></p>
+<p class="small"><%= link_to(h(@query.name), :controller => 'issues',:project_id =>@query.project.id ,:action => 'index', :query_id => @query.id) %></p>
 <% end %>
 <% end %>
 
