@@ -1,0 +1,12 @@
+div.block-receiver div.mypage-box {
+  background-color: #FDFDFD;
+  border: solid 1px #D3D3D3;
+  margin: 1px;
+  padding: 1px;
+}
+
+div.my-page-text-edit-button {
+  font-size: 70%;
+  display: inline;
+  margin-left: 5px;
+}
